@@ -1,0 +1,49 @@
+
+
+.representatives-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.card img {
+  max-width: 250px;
+  height: 400px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+}
+
+.card p {
+  font-size: 1rem;
+}
+
+button {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+}
